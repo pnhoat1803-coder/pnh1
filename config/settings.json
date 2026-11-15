@@ -95,7 +95,7 @@
             },
             "tiers": {
                 "common": true,
-                "epic": true,
+                "epic": false,
                 "fabled": false,
                 "legendary": false,
                 "mythical": false,
@@ -220,9 +220,9 @@
             "tiered": true,
             "tier_retries": 3,
             "service": "tiered",
-            "yescaptcha_api_key": "23d2d88f7f8eabbe7b03149b9abdeb0d8d12cfcf134223",
+            "yescaptcha_api_key": "",
             "nopecha_api_key": "",
-            "captchaly_api_key": "CP_HSbUPKNSiuEBkfg7yEMar7yXNHThZgNF6uXeViRVeF5A",
+            "captchaly_api_key": "",
             "anticaptcha_api_key": ""
         },
         "open_captcha_url_on_pc": true,
@@ -261,15 +261,15 @@
             60,
             90
         ],
-        "max_length": 10,
+        "max_length": 100,
         "min_length": 10
     },
     "utilities": {
         "autochannel": {
             "enabled": false,
             "cooldown": [
-                500,
-                650
+                1200,
+                1300
             ]
         }
     },
